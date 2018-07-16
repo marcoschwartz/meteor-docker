@@ -1,5 +1,5 @@
-FROM zodern/meteor
-LABEL maintainer="zodern"
+FROM marcoschwartz/meteor-docker
+LABEL maintainer="marcoschwartz"
 USER root
 RUN apt-get update && \
   apt-get install -y libfontconfig1 libfreetype6 && \
